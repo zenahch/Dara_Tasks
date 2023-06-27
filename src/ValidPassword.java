@@ -4,10 +4,10 @@ public class ValidPassword {
         if(password.length() < 6 || password.contains(" ")){
             return false;
         }
-        boolean hasUpperCase = true;
-        boolean hasLowerCase = true;
-        boolean hasDigit = true;
-        boolean hasSpecialChar = true;
+        boolean hasUpperCase = false;
+        boolean hasLowerCase = false;
+        boolean hasDigit = false;
+        boolean hasSpecialChar = false;
 
 
        for(char ch : password.toCharArray()) {
