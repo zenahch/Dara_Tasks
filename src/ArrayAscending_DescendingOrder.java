@@ -1,6 +1,6 @@
 public class ArrayAscending_DescendingOrder {
     public static void main(String[] args) {
-        int[] array = new int[]{45,77,32,65,87};
+        int[] array = {45,77,32,65,87};
         int x;
         for(int i=0; i < array.length; i++){
             for(int j=i; j< array.length; j++ ){
@@ -12,8 +12,9 @@ public class ArrayAscending_DescendingOrder {
             }
         }
 
-        for(int a : array){
-            System.out.println(a);
+        for (int a : array) {
+            System.out.print(a + " ");
         }
+
     }
 }
