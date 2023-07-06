@@ -3,13 +3,16 @@ import java.util.Arrays;
 public class Array_Maximum {
 
     public static void main(String[] args) {
-        int a[] = {2,5,3,7,8};
-        Arrays.sort(a);
+        int[] anArray = {-2,5,1,-7,8,13};
 
-        int min =a[0];
-        System.out.println(min);
+        int largest = anArray[0];
 
-        int max= a[a.length-1];
-        System.out.println(max);
+        for(int i = 0; i < anArray.length; i++){
+            if(anArray[i] > largest){
+                largest = anArray[i];
+            }
+        }
+
+        System.out.println(largest);
     }
 }
