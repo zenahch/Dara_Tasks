@@ -1,7 +1,7 @@
 public class FrequencyOfChar {
     public static void main(String[] args) {
 
-        String str = "XXXYZZZ";
+        String str = "AAABBCDD";
 
         String result = "";   // because we will put the result end of the execution of loop
 
@@ -28,8 +28,6 @@ public class FrequencyOfChar {
 
 
         System.out.println(result);
-
-
 
     }
 }

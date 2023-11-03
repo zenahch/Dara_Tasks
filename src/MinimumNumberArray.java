@@ -1,4 +1,5 @@
 public class MinimumNumberArray {
+
     public static void main(String[] args) {
       // created an Array called anArray and assigned some random values to it
         int[] anArray = {-5,3,1,-7,4,-12};
